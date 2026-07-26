@@ -22,4 +22,4 @@
 .site-footer>*{position:relative;z-index:1}
 .site-footer::before{content:"";position:absolute;z-index:0;right:clamp(10px,4vw,60px);top:50%;width:clamp(260px,25vw,330px);aspect-ratio:1;background:url("images/mandala.png") center/contain no-repeat;opacity:.24;filter:saturate(.65) contrast(.95);transform:translateY(-50%) rotate(-6deg);pointer-events:none}
 .site-footer::after{content:"";position:absolute;z-index:0;inset:0;background:linear-gradient(90deg,#192316 0%,rgba(25,35,22,.95) 44%,rgba(25,35,22,.38) 100%);pointer-events:none}
-@media(max-width:560px){.site-footer::before{right:-75px;width:280px;opacity:.19}.site-footer::after{background:linear-gradient(90deg,#192316 0%,rgba(25,35,22,.68) 100%)}}
+@media(max-width:560px){.site-footer::before{right:-38px;top:58%;width:260px;opacity:.34;filter:saturate(.8) contrast(1.02)}.site-footer::after{background:linear-gradient(90deg,#192316 0%,rgba(25,35,22,.72) 45%,rgba(25,35,22,.3) 100%)}}
